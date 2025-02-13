@@ -11,3 +11,8 @@ F1-score finds a balance → Ensures the model is both accurate and useful.
 Logistic Regression	 94.26%  	       95%	                        61%	                      74%
 Naïve Bayes       	 96.59%	         100%	                        75% 	                    85%
 Random Forest	       97.93%	         99%	                         85%	                     92%
+
+
+Random Forest is the best choice as it balances both high precision and recall.
+Naïve Bayes is also good (high precision, but lower recall).
+Logistic Regression performs the worst due to its low recall (many spam messages are missed)
